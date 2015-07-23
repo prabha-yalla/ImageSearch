@@ -5,7 +5,17 @@ VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AP_ImageSearch", "AP_ImageSearch\AP_ImageSearch.csproj", "{3CEE60FA-A399-4FF9-B0BE-D4D4656F6E8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product_Web", "..\..\..\Users\Ishaan\Downloads\Product_API_CodeProject\Product_API_CodeProject\Product_Web\Product_Web.csproj", "{062D1F63-871B-4130-9E1F-6CED02975912}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AngularClient", "AngularClient", "{C11658D5-2EE3-4FFC-A2DF-11A7714D1856}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Users\Ishaan\Downloads\press-report\press-report\app.css = ..\..\..\Users\Ishaan\Downloads\press-report\press-report\app.css
+		..\..\..\Users\Ishaan\Downloads\press-report\press-report\app.js = ..\..\..\Users\Ishaan\Downloads\press-report\press-report\app.js
+		..\..\..\Users\Ishaan\Downloads\press-report\press-report\index.html = ..\..\..\Users\Ishaan\Downloads\press-report\press-report\index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "vendor", "vendor", "{354E683C-B7CE-45F1-A081-5C7E6EE21906}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Users\Ishaan\Downloads\press-report\press-report\vendor\angular.js = ..\..\..\Users\Ishaan\Downloads\press-report\press-report\vendor\angular.js
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +27,11 @@ Global
 		{3CEE60FA-A399-4FF9-B0BE-D4D4656F6E8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CEE60FA-A399-4FF9-B0BE-D4D4656F6E8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CEE60FA-A399-4FF9-B0BE-D4D4656F6E8A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{062D1F63-871B-4130-9E1F-6CED02975912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{062D1F63-871B-4130-9E1F-6CED02975912}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{062D1F63-871B-4130-9E1F-6CED02975912}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{062D1F63-871B-4130-9E1F-6CED02975912}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{354E683C-B7CE-45F1-A081-5C7E6EE21906} = {C11658D5-2EE3-4FFC-A2DF-11A7714D1856}
 	EndGlobalSection
 EndGlobal
