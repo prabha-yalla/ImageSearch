@@ -3,19 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AngularClient", "AngularClient", "{C11658D5-2EE3-4FFC-A2DF-11A7714D1856}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\Users\Ishaan\Downloads\press-report\press-report\app.css = ..\..\..\Users\Ishaan\Downloads\press-report\press-report\app.css
-		..\..\..\Users\Ishaan\Downloads\press-report\press-report\app.js = ..\..\..\Users\Ishaan\Downloads\press-report\press-report\app.js
-		..\..\..\Users\Ishaan\Downloads\press-report\press-report\index.html = ..\..\..\Users\Ishaan\Downloads\press-report\press-report\index.html
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "vendor", "vendor", "{354E683C-B7CE-45F1-A081-5C7E6EE21906}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\Users\Ishaan\Downloads\press-report\press-report\vendor\angular.js = ..\..\..\Users\Ishaan\Downloads\press-report\press-report\vendor\angular.js
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AP_ImageSearch", "API-Proxy\AP_ImageSearch.csproj", "{3CEE60FA-A399-4FF9-B0BE-D4D4656F6E8A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AP_ImageSearch", "AP_ImageSearch\AP_ImageSearch.csproj", "{3CEE60FA-A399-4FF9-B0BE-D4D4656F6E8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
